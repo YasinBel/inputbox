@@ -1,0 +1,59 @@
+.dropbtn {
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 16px;
+    position: absolute;
+    left: 305px;
+    top: 8px;
+  }
+
+
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2b2b2b;
+    min-width: 20px;
+    z-index: 1;
+    position: absolute;
+    left: 307px;
+    top: 53px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #fff;
+    padding: 21px 26px;
+    text-decoration: none;
+    display: block;
+    outline: #fff;
+  }
+
+  .dropdown-content a:hover {background-color: #2b2b2b}
+
+.dropdown:hover .dropdown-content {display: inline-block;}
+
+    .dropdown:hover .dropbtn {background-color: #2b2b2b;}
+  
+
+body{
+  background-color: #ffff;
+}
+
+input[type=number] {
+  font-size: small;
+  width: 300px;
+  color: #fff;
+  padding: 16px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #2b2b2b;
+  }
